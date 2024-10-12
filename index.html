@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>What the weight?</title>
+</head>
+<body>
+    <h1>Calculate the weight of an object on a planet or in the moon</h1>
+
+    <div id="action">
+        <input type="text" placeholder="Mass in Kilogram">
+        <p id="error"></p>
+
+        <select name="select" class="select-planets">
+            <option value='11' disabled selected hidden>Select planet</option>
+            <option value="0">Moon</option>
+            <option value="1">Mercury</option>
+            <option value="2">Venus</option>
+            <option value="3">Earth</option>
+            <option value="4">Mars</option>
+            <option value="5">Jupiter</option>
+            <option value="6">Saturn</option>
+            <option value="7">Uranus</option>
+            <option value="8">Neptune</option>
+            <option value="9">Pluto</option>
+        </select>
+
+        <button>Calculate weight</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    background-image: url(images/galaxy.gif);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 40px 0px;
+}
+
+input {
+    width: 350px;
+    height: 28px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 12px;
+}
+
+input:hover {
+    border: none;
+}
+
+select {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 8px;
+}
+
+select:hover{
+border: none;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 8px;
+    color: white;
+    background-color: rgba(109, 109, 109, 0.938);  
+}
