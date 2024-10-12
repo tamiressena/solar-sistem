@@ -9,6 +9,7 @@ Calcule a massa de um objeto ou pessoa em outros planetas do sistema solar ou na
 <h2 align="left">Descrição</h2>
 <p align="left"> 
 Projeto desenvolvido de forma autônoma durante a realização do desafio <strong>30DaysOfJavaScript</strong>, com o objetivo de replicar um programa, com base em um vídeo que indicava como ele deveria ser e funcionar.
+O programa, assim como o exemplo a ser seguido, foi desenvolvido somente para dispositivos desktop.
 </p>
 
 <h2 align="left">Ferramentas</h2>
